@@ -1,0 +1,139 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Work Data\\@back-end-development\\#Portfolio\\Portfolio\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7BF4B958-8FD3-44A8-90C5-68FFA1B4B0A8}|harryisdev\\harryisdev.csproj|d:\\work data\\@back-end-development\\#portfolio\\portfolio\\harryisdev\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7BF4B958-8FD3-44A8-90C5-68FFA1B4B0A8}|harryisdev\\harryisdev.csproj|solutionrelative:harryisdev\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BF4B958-8FD3-44A8-90C5-68FFA1B4B0A8}|harryisdev\\harryisdev.csproj|d:\\work data\\@back-end-development\\#portfolio\\portfolio\\harryisdev\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7BF4B958-8FD3-44A8-90C5-68FFA1B4B0A8}|harryisdev\\harryisdev.csproj|solutionrelative:harryisdev\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BF4B958-8FD3-44A8-90C5-68FFA1B4B0A8}|harryisdev\\harryisdev.csproj|d:\\work data\\@back-end-development\\#portfolio\\portfolio\\harryisdev\\wwwroot\\css\\bootstrap.min.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{7BF4B958-8FD3-44A8-90C5-68FFA1B4B0A8}|harryisdev\\harryisdev.csproj|solutionrelative:harryisdev\\wwwroot\\css\\bootstrap.min.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BF4B958-8FD3-44A8-90C5-68FFA1B4B0A8}|harryisdev\\harryisdev.csproj|d:\\work data\\@back-end-development\\#portfolio\\portfolio\\harryisdev\\views\\about\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7BF4B958-8FD3-44A8-90C5-68FFA1B4B0A8}|harryisdev\\harryisdev.csproj|solutionrelative:harryisdev\\views\\about\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BF4B958-8FD3-44A8-90C5-68FFA1B4B0A8}|harryisdev\\harryisdev.csproj|d:\\work data\\@back-end-development\\#portfolio\\portfolio\\harryisdev\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{7BF4B958-8FD3-44A8-90C5-68FFA1B4B0A8}|harryisdev\\harryisdev.csproj|solutionrelative:harryisdev\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BF4B958-8FD3-44A8-90C5-68FFA1B4B0A8}|harryisdev\\harryisdev.csproj|d:\\work data\\@back-end-development\\#portfolio\\portfolio\\harryisdev\\controllers\\aboutcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7BF4B958-8FD3-44A8-90C5-68FFA1B4B0A8}|harryisdev\\harryisdev.csproj|solutionrelative:harryisdev\\controllers\\aboutcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BF4B958-8FD3-44A8-90C5-68FFA1B4B0A8}|harryisdev\\harryisdev.csproj|d:\\work data\\@back-end-development\\#portfolio\\portfolio\\harryisdev\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{7BF4B958-8FD3-44A8-90C5-68FFA1B4B0A8}|harryisdev\\harryisdev.csproj|solutionrelative:harryisdev\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e506b91c-c606-466a-90a9-123d1d1e12b3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Work Data\\@back-end-development\\#Portfolio\\Portfolio\\harryisdev\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "harryisdev\\Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\Work Data\\@back-end-development\\#Portfolio\\Portfolio\\harryisdev\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "harryisdev\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAADcAAAAAAAAAAAAjwEcAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-16T16:35:40.752Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "bootstrap.min.css",
+              "DocumentMoniker": "D:\\Work Data\\@back-end-development\\#Portfolio\\Portfolio\\harryisdev\\wwwroot\\css\\bootstrap.min.css",
+              "RelativeDocumentMoniker": "harryisdev\\wwwroot\\css\\bootstrap.min.css",
+              "ToolTip": "D:\\Work Data\\@back-end-development\\#Portfolio\\Portfolio\\harryisdev\\wwwroot\\css\\bootstrap.min.css",
+              "RelativeToolTip": "harryisdev\\wwwroot\\css\\bootstrap.min.css",
+              "ViewState": "AgIAAFEQAAAAAAAAAAAhwHgQAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-09-16T17:31:53.458Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Work Data\\@back-end-development\\#Portfolio\\Portfolio\\harryisdev\\Views\\About\\Index.cshtml",
+              "RelativeDocumentMoniker": "harryisdev\\Views\\About\\Index.cshtml",
+              "ToolTip": "D:\\Work Data\\@back-end-development\\#Portfolio\\Portfolio\\harryisdev\\Views\\About\\Index.cshtml",
+              "RelativeToolTip": "harryisdev\\Views\\About\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-16T16:35:34.263Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AboutController.cs",
+              "DocumentMoniker": "D:\\Work Data\\@back-end-development\\#Portfolio\\Portfolio\\harryisdev\\Controllers\\AboutController.cs",
+              "RelativeDocumentMoniker": "harryisdev\\Controllers\\AboutController.cs",
+              "ToolTip": "D:\\Work Data\\@back-end-development\\#Portfolio\\Portfolio\\harryisdev\\Controllers\\AboutController.cs",
+              "RelativeToolTip": "harryisdev\\Controllers\\AboutController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-16T16:35:18.415Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "site.css",
+              "DocumentMoniker": "D:\\Work Data\\@back-end-development\\#Portfolio\\Portfolio\\harryisdev\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "harryisdev\\wwwroot\\css\\site.css",
+              "ToolTip": "D:\\Work Data\\@back-end-development\\#Portfolio\\Portfolio\\harryisdev\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "harryisdev\\wwwroot\\css\\site.css",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABoAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-09-16T15:21:41.989Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\Work Data\\@back-end-development\\#Portfolio\\Portfolio\\harryisdev\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "harryisdev\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\Work Data\\@back-end-development\\#Portfolio\\Portfolio\\harryisdev\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "harryisdev\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-16T14:51:36.122Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "D:\\Work Data\\@back-end-development\\#Portfolio\\Portfolio\\harryisdev\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "harryisdev\\Properties\\launchSettings.json",
+              "ToolTip": "D:\\Work Data\\@back-end-development\\#Portfolio\\Portfolio\\harryisdev\\Properties\\launchSettings.json",
+              "RelativeToolTip": "harryisdev\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-09-16T14:20:58.794Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
