@@ -21,7 +21,7 @@
             <!-- Navbar 1 - Bootstrap Brain Component -->
             <nav class="navbar navbar-expand-md bsb-navbar bsb-navbar-hover bsb-navbar-caret nav-sticky">
                 <div class="container">
-                    <a class="navbar-brand" href="index.html">
+                    <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">
                         <img src="~/assets/images/hdev_square.svg" class="logo" alt="harryis.dev">
                     </a>
                     <button class="navbar-toggler border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
@@ -42,30 +42,31 @@
                                     <a class="nav-link active" aria-current="page" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" asp-area="" asp-controller="About" asp-action="Index">About</a>
+                                    <a class="nav-link" asp-area="" asp-controller="PageNotFound" asp-action="Index">About</a>
                                 </li>
                                 <li class="nav-item dropdown">
                                     <a class="nav-link dropdown-toggle" href="#!" id="servicesDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Services</a>
                                     <ul class="dropdown-menu border-0 shadow bsb-zoomIn" aria-labelledby="servicesDropdown">
-                                        <li><a class="dropdown-item" href="#!">Writing</a></li>
-                                        <li><a class="dropdown-item" href="#!">SEO</a></li>
-                                        <li><a class="dropdown-item" href="#!">Web Design</a></li>
-                                        <li><a class="dropdown-item" href="#!">App Development</a></li>
+                                        <li><a class="dropdown-item" asp-area="" asp-controller="PageNotFound" asp-action="Index">Writing</a></li>
+                                        <li><a class="dropdown-item" asp-area="" asp-controller="PageNotFound" asp-action="Index">SEO</a></li>
+                                        <li><a class="dropdown-item" asp-area="" asp-controller="PageNotFound" asp-action="Index">Web Design</a></li>
+                                        <li><a class="dropdown-item" asp-area="" asp-controller="PageNotFound" asp-action="Index">App Development</a></li>
                                     </ul>
                                 </li>
                                 @* <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle" href="#!" id="accountDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Account</a>
-                                    <ul class="dropdown-menu border-0 shadow bsb-zoomIn" aria-labelledby="accountDropdown">
-                                        <li><a class="dropdown-item" href="#!">Log in</a></li>
-                                        <li><a class="dropdown-item" href="#!">Lost Password?</a></li>
-                                        <li>
-                                            <hr class="dropdown-divider">
-                                        </li>
-                                        <li><a class="dropdown-item" href="#!">Sign up</a></li>
-                                    </ul>
+                                <a class="nav-link dropdown-toggle" href="#!" id="accountDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Account</a>
+                                <ul class="dropdown-menu border-0 shadow bsb-zoomIn" aria-labelledby="accountDropdown">
+                                <li><a class="dropdown-item" href="#!">Log in</a></li>
+                                <li><a class="dropdown-item" href="#!">Lost Password?</a></li>
+                                <li>
+                                <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#!">Sign up</a></li>
+                                </ul>
                                 </li> *@
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#!">Contact</a>
+                                    @* <a class="nav-link" asp-area="" asp-controller="PageNotFound" asp-action="Index">Contact</a> *@
+                                    <a class="nav-link" href="http://www.instagram.com/streetpro9" target="_blank">Contact</a>
                                 </li>
                             </ul>
                         </div>
@@ -155,18 +156,18 @@
 
             <!-- Copyright - Bootstrap Brain Component -->
             @* <div class="bg-light py-3 py-md-5 border-top border-light-subtle">
-                <div class="container overflow-hidden">
-                    <div class="row">
-                        <div class="col">
-                            <div class="footer-copyright-wrapper text-center">
-                                &copy; 2024. All Rights Reserved.
-                            </div>
-                            <div class="credits text-secondary text-center mt-2 fs-8">
-                                Built by <a href="https://bootstrapbrain.com/" class="link-secondary text-decoration-none">BootstrapBrain</a> with <span class="text-primary">&#9829;</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+            <div class="container overflow-hidden">
+            <div class="row">
+            <div class="col">
+            <div class="footer-copyright-wrapper text-center">
+            &copy; 2024. All Rights Reserved.
+            </div>
+            <div class="credits text-secondary text-center mt-2 fs-8">
+            Built by <a href="https://bootstrapbrain.com/" class="link-secondary text-decoration-none">BootstrapBrain</a> with <span class="text-primary">&#9829;</span>
+            </div>
+            </div>
+            </div>
+            </div>
             </div> *@
 
         </footer>

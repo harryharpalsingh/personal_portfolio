@@ -1,0 +1,7 @@
+D:\Work Data\@back-end-development\#Portfolio\Portfolio\harryisdev\obj\Release\net6.0\PubTmp\Out\harryisdev.exe
+D:\Work Data\@back-end-development\#Portfolio\Portfolio\harryisdev\obj\Release\net6.0\PubTmp\Out\appsettings.Development.json
+D:\Work Data\@back-end-development\#Portfolio\Portfolio\harryisdev\obj\Release\net6.0\PubTmp\Out\appsettings.json
+D:\Work Data\@back-end-development\#Portfolio\Portfolio\harryisdev\obj\Release\net6.0\PubTmp\Out\harryisdev.dll
+D:\Work Data\@back-end-development\#Portfolio\Portfolio\harryisdev\obj\Release\net6.0\PubTmp\Out\harryisdev.deps.json
+D:\Work Data\@back-end-development\#Portfolio\Portfolio\harryisdev\obj\Release\net6.0\PubTmp\Out\harryisdev.runtimeconfig.json
+D:\Work Data\@back-end-development\#Portfolio\Portfolio\harryisdev\obj\Release\net6.0\PubTmp\Out\harryisdev.pdb

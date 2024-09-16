@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "9RKEaQNhUmx+HD0g10+/pubqKzE/oAwfhqzXMQTFXak=",
+  "Hash": "z+BM+wfhWMSdZP5T0Pu8N0FZoF+IweizqCuy/MfD9mI=",
   "Source": "harryisdev",
   "BasePath": "_content/harryisdev",
   "Mode": "Default",
@@ -129,6 +129,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\bootstrap.min.css"
+    },
+    {
+      "Identity": "D:\\Work Data\\@back-end-development\\#Portfolio\\Portfolio\\harryisdev\\wwwroot\\css\\error-404-1.css",
+      "SourceId": "harryisdev",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Work Data\\@back-end-development\\#Portfolio\\Portfolio\\harryisdev\\wwwroot\\",
+      "BasePath": "_content/harryisdev",
+      "RelativePath": "css/error-404-1.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\error-404-1.css"
     },
     {
       "Identity": "D:\\Work Data\\@back-end-development\\#Portfolio\\Portfolio\\harryisdev\\wwwroot\\css\\hero-2.css",

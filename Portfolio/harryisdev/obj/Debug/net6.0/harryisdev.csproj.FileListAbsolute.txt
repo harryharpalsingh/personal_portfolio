@@ -28,3 +28,4 @@ D:\Work Data\@back-end-development\#Portfolio\Portfolio\harryisdev\obj\Debug\net
 D:\Work Data\@back-end-development\#Portfolio\Portfolio\harryisdev\obj\Debug\net6.0\harryisdev.pdb
 D:\Work Data\@back-end-development\#Portfolio\Portfolio\harryisdev\obj\Debug\net6.0\harryisdev.genruntimeconfig.cache
 D:\Work Data\@back-end-development\#Portfolio\Portfolio\harryisdev\obj\Debug\net6.0\ref\harryisdev.dll
+D:\Work Data\@back-end-development\#Portfolio\Portfolio\harryisdev\obj\Debug\net6.0\harryisdev.sourcelink.json

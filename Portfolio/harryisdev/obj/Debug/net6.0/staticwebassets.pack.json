@@ -21,6 +21,10 @@
       "PackagePath": "staticwebassets\\css\\bootstrap.min.css"
     },
     {
+      "Id": "D:\\Work Data\\@back-end-development\\#Portfolio\\Portfolio\\harryisdev\\wwwroot\\css\\error-404-1.css",
+      "PackagePath": "staticwebassets\\css\\error-404-1.css"
+    },
+    {
       "Id": "D:\\Work Data\\@back-end-development\\#Portfolio\\Portfolio\\harryisdev\\wwwroot\\css\\hero-2.css",
       "PackagePath": "staticwebassets\\css\\hero-2.css"
     },
