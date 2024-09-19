@@ -692,6 +692,11 @@ progress {
     height: auto
 }
 
+.img-fluid2 {
+    max-width: 70%;
+    height: auto
+}
+
 .img-thumbnail {
     padding: .25rem;
     background-color: var(--bs-body-bg);

@@ -9,8 +9,24 @@
       "PackagePath": "staticwebassets\\assets\\images\\banner-img-blob-1.svg"
     },
     {
+      "Id": "D:\\Work Data\\@back-end-development\\#Portfolio\\Portfolio\\harryisdev\\wwwroot\\assets\\images\\connect.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\connect.svg"
+    },
+    {
       "Id": "D:\\Work Data\\@back-end-development\\#Portfolio\\Portfolio\\harryisdev\\wwwroot\\assets\\images\\hdev_square.svg",
       "PackagePath": "staticwebassets\\assets\\images\\hdev_square.svg"
+    },
+    {
+      "Id": "D:\\Work Data\\@back-end-development\\#Portfolio\\Portfolio\\harryisdev\\wwwroot\\assets\\images\\instagram-logo.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\instagram-logo.svg"
+    },
+    {
+      "Id": "D:\\Work Data\\@back-end-development\\#Portfolio\\Portfolio\\harryisdev\\wwwroot\\assets\\images\\linkedin-logo.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\linkedin-logo.svg"
+    },
+    {
+      "Id": "D:\\Work Data\\@back-end-development\\#Portfolio\\Portfolio\\harryisdev\\wwwroot\\assets\\images\\logo-github.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\logo-github.svg"
     },
     {
       "Id": "D:\\Work Data\\@back-end-development\\#Portfolio\\Portfolio\\harryisdev\\wwwroot\\assets\\images\\no-image.svg",
