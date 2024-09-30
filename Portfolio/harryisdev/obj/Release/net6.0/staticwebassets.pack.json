@@ -37,8 +37,24 @@
       "PackagePath": "staticwebassets\\assets\\images\\people.svg"
     },
     {
+      "Id": "D:\\Work Data\\@back-end-development\\#Portfolio\\Portfolio\\harryisdev\\wwwroot\\assets\\images\\señor-harpal-avif.avif",
+      "PackagePath": "staticwebassets\\assets\\images\\señor-harpal-avif.avif"
+    },
+    {
+      "Id": "D:\\Work Data\\@back-end-development\\#Portfolio\\Portfolio\\harryisdev\\wwwroot\\assets\\images\\señor-harpal-webp.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\señor-harpal-webp.webp"
+    },
+    {
       "Id": "D:\\Work Data\\@back-end-development\\#Portfolio\\Portfolio\\harryisdev\\wwwroot\\assets\\images\\señor_harpal.webp",
       "PackagePath": "staticwebassets\\assets\\images\\señor_harpal.webp"
+    },
+    {
+      "Id": "D:\\Work Data\\@back-end-development\\#Portfolio\\Portfolio\\harryisdev\\wwwroot\\css\\about-fact.css",
+      "PackagePath": "staticwebassets\\css\\about-fact.css"
+    },
+    {
+      "Id": "D:\\Work Data\\@back-end-development\\#Portfolio\\Portfolio\\harryisdev\\wwwroot\\css\\about.css",
+      "PackagePath": "staticwebassets\\css\\about.css"
     },
     {
       "Id": "D:\\Work Data\\@back-end-development\\#Portfolio\\Portfolio\\harryisdev\\wwwroot\\css\\bootstrap.min.css",
