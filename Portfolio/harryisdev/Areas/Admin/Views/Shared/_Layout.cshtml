@@ -1,0 +1,817 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link href="~/css/admin/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link href="~/css/admin/navbar-3.css" rel="stylesheet" />
+    <link href="~/css/admin/sidebar-1.css" rel="stylesheet" />
+    <link href="~/css/admin/font-size.css" rel="stylesheet" />
+    <link href="~/css/admin/padding.css" rel="stylesheet" />
+    <script src="~/js/admin/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+    <!-- Header -->
+    <header id="header-demo">
+        <nav class="navbar navbar-expand-md bg-body-tertiary bsb-navbar-3">
+            <div class="container">
+                <ul class="navbar-nav">
+                    <li class="nav-item me-3">
+                        <a class="nav-link" href="#!" data-bs-toggle="offcanvas" data-bs-target="#bsbSidebar1" aria-controls="bsbSidebar1">
+                            <i class="bi-filter-left fs-3 lh-1"></i>
+                        </a>
+                    </li>
+                </ul>
+                <a class="navbar-brand" href="#!">
+                    <img src="~/assets/images/hdev_square.svg" class="logo img-fluid" alt="harryis.dev">
+                    @* <img src="./assets/img/branding/bsb-logo.svg" class="img-fluid" alt="BootstrapBrain Logo" width="135" height="44"> *@
+                </a>
+                <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#bsbNavbar" aria-controls="bsbNavbar" aria-label="Toggle Navigation">
+                    <i class="bi bi-three-dots"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="bsbNavbar">
+                    <ul class="navbar-nav bsb-dropdown-menu-responsive ms-auto align-items-center">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle bsb-dropdown-toggle-caret-disable" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                <span class="position-relative pt-1">
+                                    <i class="bi bi-search"></i>
+                                </span>
+                            </a>
+                            <div class="dropdown-menu dropdown-menu-md-end bsb-dropdown-animation bsb-fadeIn">
+                                <form class="row g-1 px-3 py-2 align-items-center">
+                                    <div class="col-8">
+                                        <label class="visually-hidden" for="inputSearchNavbar">Search</label>
+                                        <input type="text" class="form-control" id="inputSearchNavbar">
+                                    </div>
+                                    <div class="col-4">
+                                        <button type="submit" class="btn btn-primary">Search</button>
+                                    </div>
+                                </form>
+                            </div>
+                        </li>
+
+                        <!--Language selector-->
+                        @* <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle bsb-dropdown-toggle-caret-disable" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <span class="position-relative pt-1">
+                        <i class="bi bi-globe"></i>
+                        </span>
+                        </a>
+                        <div class="dropdown-menu dropdown-menu-md-end bsb-dropdown-sm bsb-dropdown-animation bsb-fadeIn">
+                        <div>
+                        <h6 class="dropdown-header fs-7 text-center">Multilingual</h6>
+                        </div>
+                        <div>
+                        <hr class="dropdown-divider mb-0">
+                        </div>
+                        <div class="list-group list-group-flush">
+                        <a href="#" class="list-group-item list-group-item-action" aria-current="true">
+                        <div class="row g-0 align-items-center">
+                        <div class="col-2">
+                        <img src="./assets/img/translation/flag-img-1.svg" class="img-fluid rounded-pill" alt="Arabic">
+                        </div>
+                        <div class="col-10">
+                        <div class="ps-3">
+                        <div class="fs-7">Arabic</div>
+                        </div>
+                        </div>
+                        </div>
+                        </a>
+                        <a href="#" class="list-group-item list-group-item-action" aria-current="true">
+                        <div class="row g-0 align-items-center">
+                        <div class="col-2">
+                        <img src="./assets/img/translation/flag-img-2.svg" class="img-fluid rounded-pill" alt="Chinese">
+                        </div>
+                        <div class="col-10">
+                        <div class="ps-3">
+                        <div class="fs-7">Chinese</div>
+                        </div>
+                        </div>
+                        </div>
+                        </a>
+                        <a href="#" class="list-group-item list-group-item-action active" aria-current="true">
+                        <div class="row g-0 align-items-center">
+                        <div class="col-2">
+                        <img src="./assets/img/translation/flag-img-3.svg" class="img-fluid rounded-pill" alt="English">
+                        </div>
+                        <div class="col-10">
+                        <div class="ps-3">
+                        <div class="fs-7">English</div>
+                        </div>
+                        </div>
+                        </div>
+                        </a>
+                        <a href="#" class="list-group-item list-group-item-action" aria-current="true">
+                        <div class="row g-0 align-items-center">
+                        <div class="col-2">
+                        <img src="./assets/img/translation/flag-img-4.svg" class="img-fluid rounded-pill" alt="French">
+                        </div>
+                        <div class="col-10">
+                        <div class="ps-3">
+                        <div class="fs-7">French</div>
+                        </div>
+                        </div>
+                        </div>
+                        </a>
+                        </div>
+                        <div>
+                        <hr class="dropdown-divider mt-0">
+                        </div>
+                        <div>
+                        <a class="dropdown-item fs-7 text-center" href="#">See All Languages</a>
+                        </div>
+                        </div>
+                        </li> *@
+
+                        <!--Chats-->
+                        @* <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle bsb-dropdown-toggle-caret-disable" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <span class="position-relative pt-1">
+                        <i class="bi bi-chat-left"></i>
+                        <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-primary">
+                        9
+                        <span class="visually-hidden">New Chats</span>
+                        </span>
+                        </span>
+                        </a>
+                        <div class="dropdown-menu dropdown-menu-md-end bsb-dropdown-animation bsb-fadeIn">
+                        <div>
+                        <h6 class="dropdown-header fs-7 text-center">9 New Messages</h6>
+                        </div>
+                        <div>
+                        <hr class="dropdown-divider mb-0">
+                        </div>
+                        <div class="list-group list-group-flush">
+                        <a href="#" class="list-group-item list-group-item-action" aria-current="true">
+                        <div class="row g-0 align-items-center">
+                        <div class="col-2">
+                        <img src="./assets/img/chat/chat-img-1.jpg" class="img-fluid rounded-circle" alt="Luna John">
+                        </div>
+                        <div class="col-10">
+                        <div class="ps-3">
+                        <div class="text-dark">Luna John</div>
+                        <div class="text-secondary mt-1 fs-7">Hello, I'm having trouble with my account.</div>
+                        <div class="text-secondary mt-1 fs-7">15m ago</div>
+                        </div>
+                        </div>
+                        </div>
+                        </a>
+                        <a href="#" class="list-group-item list-group-item-action">
+                        <div class="row g-0 align-items-center">
+                        <div class="col-2">
+                        <img src="./assets/img/chat/chat-img-2.jpg" class="img-fluid rounded-circle" alt="Mark Smith">
+                        </div>
+                        <div class="col-10">
+                        <div class="ps-3">
+                        <div class="text-dark">Mark Smith</div>
+                        <div class="text-secondary mt-1 fs-7">Hi, I'm not able to change my password.</div>
+                        <div class="text-secondary mt-1 fs-7">23m ago</div>
+                        </div>
+                        </div>
+                        </div>
+                        </a>
+                        </div>
+                        <div>
+                        <hr class="dropdown-divider mt-0">
+                        </div>
+                        <div>
+                        <a class="dropdown-item fs-7 text-center" href="#">See All Messages</a>
+                        </div>
+                        </div>
+                        </li> *@
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle bsb-dropdown-toggle-caret-disable" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                <span class="position-relative pt-1">
+                                    <i class="bi bi-bell"></i>
+                                    <span class="p-1 bg-danger border border-light rounded-circle position-absolute top-0 start-100 translate-middle">
+                                        <span class="visually-hidden">New Notifications</span>
+                                    </span>
+                                </span>
+                            </a>
+                            <ul class="dropdown-menu dropdown-menu-md-end bsb-dropdown-animation bsb-fadeIn">
+                                <li>
+                                    <h6 class="dropdown-header fs-7 text-center">18 Notifications</h6>
+                                </li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li>
+                                    <a class="dropdown-item d-flex align-items-center" href="#!">
+                                        <span>
+                                            <i class="bi bi-envelope-fill me-2"></i>
+                                            <span class="fs-7">New Messages</span>
+                                        </span>
+                                        <span class="fs-7 ms-auto text-secondary">5 mins</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li>
+                                    <a class="dropdown-item d-flex align-items-center" href="#!">
+                                        <span>
+                                            <i class="bi bi-person-fill me-2"></i>
+                                            <span class="fs-7">Friend Requests</span>
+                                        </span>
+                                        <span class="fs-7 ms-auto text-secondary">17 hours</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li>
+                                    <a class="dropdown-item d-flex align-items-center" href="#!">
+                                        <span>
+                                            <i class="bi bi-file-earmark-fill me-2"></i>
+                                            <span class="fs-7">New Reports</span>
+                                        </span>
+                                        <span class="fs-7 ms-auto text-secondary">3 days</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item fs-7 text-center" href="#">See All Notifications</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle bsb-dropdown-toggle-caret-disable" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                <img src="../assets/images/señor_harpal.webp" width="35" height="35" class="img-fluid rounded-circle" alt="Harpal Singh">
+                            </a>
+                            <ul class="dropdown-menu dropdown-menu-md-end bsb-dropdown-animation bsb-fadeIn">
+                                <li>
+                                    <h6 class="dropdown-header fs-7 text-center">Welcome, Harpal Singh</h6>
+                                </li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li>
+                                    <a href="#" class="dropdown-item" aria-current="true">
+                                        <div class="row g-0 align-items-center">
+                                            <div class="col-3">
+                                                <img src="../assets/images/señor_harpal.webp" width="55" height="55" class="img-fluid rounded-circle" alt="Harpal Singh">
+                                            </div>
+                                            <div class="col-9">
+                                                <div class="ps-3">
+                                                    <div class="text-secondary mt-1 fs-7">Premium Account</div>
+                                                    <div class="text-secondary mt-1 fs-7">email@domain.com</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="#!">
+                                        <span>
+                                            <i class="bi bi-person-fill me-2"></i>
+                                            <span class="fs-7">View Profile</span>
+                                        </span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="#!">
+                                        <span>
+                                            <i class="bi bi-bell-fill me-2"></i>
+                                            <span class="fs-7">Notifications</span>
+                                        </span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="#!">
+                                        <span>
+                                            <i class="bi bi-gear-fill me-2"></i>
+                                            <span class="fs-7">Settings & Privacy</span>
+                                        </span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="#!">
+                                        <span>
+                                            <i class="bi bi-question-circle-fill me-2"></i>
+                                            <span class="fs-7">Help Center</span>
+                                        </span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li>
+                                    <a class="dropdown-item text-center" href="#!">
+                                        <span>
+                                            <span class="fs-7">Log Out</span>
+                                        </span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main -->
+    <div id="main-demo">
+        <section class="my-3 my-md-4">
+            <div class="container">
+                @RenderBody()
+            </div>
+        </section>
+
+    </div>
+
+    <!-- Aside -->
+    @* <aside class="bsb-sidebar-1 offcanvas offcanvas-start" tabindex="-1" id="bsbSidebar1" aria-labelledby="bsbSidebarLabel1">
+    <div class="offcanvas-header">
+    <h5 class="offcanvas-title" id="bsbSidebarLabel1">Offcanvas Sidebar</h5>
+    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+    <div class="offcanvas-body">
+    ...
+    </div>
+    </aside> *@
+
+    <!-- Aside -->
+    <aside class="bsb-sidebar-1 offcanvas offcanvas-start" tabindex="-1" id="bsbSidebar1" aria-labelledby="bsbSidebarLabel1">
+        <div class="offcanvas-header">
+            <a class="sidebar-brand" href="#!">
+                <img src="~/assets/images/hdev_square.svg" id="bsbSidebarLabel1" class="img-fluid logo" alt="Logo">
+            </a>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body pt-0">
+            <hr class="sidebar-divider mb-3">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link p-3 active bg-light rounded" data-bs-toggle="collapse" href="#dashboardExamples" role="button" aria-expanded="true" aria-controls="dashboardExamples">
+                        <div class="nav-link-icon text-primary">
+                            <i class="bi bi-house-gear"></i>
+                        </div>
+                        <span class="nav-link-text fw-bold">Dashboards</span>
+                    </a>
+                    <div class="collapse show" id="dashboardExamples">
+                        <ul class="nav flex-column ms-4">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#!">
+                                    <div class="nav-link-icon text-primary-emphasis">
+                                        <i class="bi bi-arrow-right-short"></i>
+                                    </div>
+                                    <span class="nav-link-text">Default</span>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link link-secondary" aria-current="page" href="#!">
+                                    <div class="nav-link-icon text-primary-emphasis">
+                                        <i class="bi bi-arrow-right-short"></i>
+                                    </div>
+                                    <span class="nav-link-text">Sales</span>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link link-secondary" aria-current="page" href="#!">
+                                    <div class="nav-link-icon text-primary-emphasis">
+                                        <i class="bi bi-arrow-right-short"></i>
+                                    </div>
+                                    <span class="nav-link-text">Marketing</span>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link link-secondary" aria-current="page" href="#!">
+                                    <div class="nav-link-icon text-primary-emphasis">
+                                        <i class="bi bi-arrow-right-short"></i>
+                                    </div>
+                                    <span class="nav-link-text">Directory</span>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link link-secondary" aria-current="page" href="#!">
+                                    <div class="nav-link-icon text-primary-emphasis">
+                                        <i class="bi bi-arrow-right-short"></i>
+                                    </div>
+                                    <span class="nav-link-text">Analytic</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="nav-item mt-3">
+                    <h6 class="py-1 text-secondary text-uppercase fs-7">Pages</h6>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link p-3" data-bs-toggle="collapse" href="#pageExamples" role="button" aria-expanded="false" aria-controls="pageExamples">
+                        <div class="nav-link-icon text-danger">
+                            <i class="bi bi-folder"></i>
+                        </div>
+                        <span class="nav-link-text fw-bold">Pages</span>
+                    </a>
+                    <div class="collapse" id="pageExamples">
+                        <ul class="nav flex-column ms-4">
+                            <li class="nav-item">
+                                <a class="nav-link link-secondary" aria-current="page" href="#!">
+                                    <div class="nav-link-icon text-danger-emphasis">
+                                        <i class="bi bi-arrow-right-short"></i>
+                                    </div>
+                                    <span class="nav-link-text">Account</span>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link link-secondary" aria-current="page" href="#!">
+                                    <div class="nav-link-icon text-danger-emphasis">
+                                        <i class="bi bi-arrow-right-short"></i>
+                                    </div>
+                                    <span class="nav-link-text">Profile</span>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link link-secondary" aria-current="page" href="#!">
+                                    <div class="nav-link-icon text-danger-emphasis">
+                                        <i class="bi bi-arrow-right-short"></i>
+                                    </div>
+                                    <span class="nav-link-text">Users</span>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link link-secondary" aria-current="page" href="#!">
+                                    <div class="nav-link-icon text-danger-emphasis">
+                                        <i class="bi bi-arrow-right-short"></i>
+                                    </div>
+                                    <span class="nav-link-text">Projects</span>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link link-secondary" aria-current="page" href="#!">
+                                    <div class="nav-link-icon text-danger-emphasis">
+                                        <i class="bi bi-arrow-right-short"></i>
+                                    </div>
+                                    <span class="nav-link-text">Invoice</span>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link link-secondary" aria-current="page" href="#!">
+                                    <div class="nav-link-icon text-danger-emphasis">
+                                        <i class="bi bi-arrow-right-short"></i>
+                                    </div>
+                                    <span class="nav-link-text">Pricing</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link p-3" data-bs-toggle="collapse" href="#authExamples" role="button" aria-expanded="false" aria-controls="authExamples">
+                        <div class="nav-link-icon text-success">
+                            <i class="bi bi-gear"></i>
+                        </div>
+                        <span class="nav-link-text fw-bold">Authentication</span>
+                    </a>
+                    <div class="collapse" id="authExamples">
+                        <ul class="nav flex-column ms-4">
+                            <li class="nav-item">
+                                <a class="nav-link link-secondary" aria-current="page" href="#!">
+                                    <div class="nav-link-icon text-success-emphasis">
+                                        <i class="bi bi-arrow-right-short"></i>
+                                    </div>
+                                    <span class="nav-link-text">Sign In</span>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link link-secondary" aria-current="page" href="#!">
+                                    <div class="nav-link-icon text-success-emphasis">
+                                        <i class="bi bi-arrow-right-short"></i>
+                                    </div>
+                                    <span class="nav-link-text">Sign Up</span>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link link-secondary" aria-current="page" href="#!">
+                                    <div class="nav-link-icon text-success-emphasis">
+                                        <i class="bi bi-arrow-right-short"></i>
+                                    </div>
+                                    <span class="nav-link-text">Reset Password</span>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link link-secondary" aria-current="page" href="#!">
+                                    <div class="nav-link-icon text-success-emphasis">
+                                        <i class="bi bi-arrow-right-short"></i>
+                                    </div>
+                                    <span class="nav-link-text">Lock</span>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link link-secondary" aria-current="page" href="#!">
+                                    <div class="nav-link-icon text-success-emphasis">
+                                        <i class="bi bi-arrow-right-short"></i>
+                                    </div>
+                                    <span class="nav-link-text">Error</span>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link link-secondary" aria-current="page" href="#!">
+                                    <div class="nav-link-icon text-success-emphasis">
+                                        <i class="bi bi-arrow-right-short"></i>
+                                    </div>
+                                    <span class="nav-link-text">2FA</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link p-3" data-bs-toggle="collapse" href="#ecommerceExamples" role="button" aria-expanded="false" aria-controls="ecommerceExamples">
+                        <div class="nav-link-icon text-info">
+                            <i class="bi bi-cart"></i>
+                        </div>
+                        <span class="nav-link-text fw-bold">Ecommerce</span>
+                    </a>
+                    <div class="collapse" id="ecommerceExamples">
+                        <ul class="nav flex-column ms-4">
+                            <li class="nav-item">
+                                <a class="nav-link link-secondary" aria-current="page" href="#!">
+                                    <div class="nav-link-icon text-info-emphasis">
+                                        <i class="bi bi-arrow-right-short"></i>
+                                    </div>
+                                    <span class="nav-link-text">Overview</span>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link link-secondary" aria-current="page" href="#!">
+                                    <div class="nav-link-icon text-info-emphasis">
+                                        <i class="bi bi-arrow-right-short"></i>
+                                    </div>
+                                    <span class="nav-link-text">Products</span>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link link-secondary" aria-current="page" href="#!">
+                                    <div class="nav-link-icon text-info-emphasis">
+                                        <i class="bi bi-arrow-right-short"></i>
+                                    </div>
+                                    <span class="nav-link-text">Orders</span>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link link-secondary" aria-current="page" href="#!">
+                                    <div class="nav-link-icon text-info-emphasis">
+                                        <i class="bi bi-arrow-right-short"></i>
+                                    </div>
+                                    <span class="nav-link-text">Referral</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link p-3" data-bs-toggle="collapse" href="#componentExamples" role="button" aria-expanded="false" aria-controls="componentExamples">
+                        <div class="nav-link-icon text-warning">
+                            <i class="bi bi-database-check"></i>
+                        </div>
+                        <span class="nav-link-text fw-bold">Components</span>
+                    </a>
+                    <div class="collapse" id="componentExamples">
+                        <ul class="nav flex-column ms-4">
+                            <li class="nav-item">
+                                <a class="nav-link link-secondary" aria-current="page" href="#!">
+                                    <div class="nav-link-icon text-warning-emphasis">
+                                        <i class="bi bi-arrow-right-short"></i>
+                                    </div>
+                                    <span class="nav-link-text">Buttons</span>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link link-secondary" aria-current="page" href="#!">
+                                    <div class="nav-link-icon text-warning-emphasis">
+                                        <i class="bi bi-arrow-right-short"></i>
+                                    </div>
+                                    <span class="nav-link-text">Charts</span>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link link-secondary" aria-current="page" href="#!">
+                                    <div class="nav-link-icon text-warning-emphasis">
+                                        <i class="bi bi-arrow-right-short"></i>
+                                    </div>
+                                    <span class="nav-link-text">Forms</span>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link link-secondary" aria-current="page" href="#!">
+                                    <div class="nav-link-icon text-warning-emphasis">
+                                        <i class="bi bi-arrow-right-short"></i>
+                                    </div>
+                                    <span class="nav-link-text">Icons</span>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link link-secondary" aria-current="page" href="#!">
+                                    <div class="nav-link-icon text-warning-emphasis">
+                                        <i class="bi bi-arrow-right-short"></i>
+                                    </div>
+                                    <span class="nav-link-text">Widgets</span>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link link-secondary" aria-current="page" href="#!">
+                                    <div class="nav-link-icon text-warning-emphasis">
+                                        <i class="bi bi-arrow-right-short"></i>
+                                    </div>
+                                    <span class="nav-link-text">Notifications</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="nav-item mt-3">
+                    <h6 class="py-1 text-secondary text-uppercase fs-7">Docs</h6>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link p-3" data-bs-toggle="collapse" href="#basicExamples" role="button" aria-expanded="false" aria-controls="basicExamples">
+                        <div class="nav-link-icon text-dark">
+                            <i class="bi bi-pen"></i>
+                        </div>
+                        <span class="nav-link-text fw-bold">Basic</span>
+                    </a>
+                    <div class="collapse" id="basicExamples">
+                        <ul class="nav flex-column ms-4">
+                            <li class="nav-item">
+                                <a class="nav-link link-secondary" aria-current="page" href="#!">
+                                    <div class="nav-link-icon text-dark-emphasis">
+                                        <i class="bi bi-arrow-right-short"></i>
+                                    </div>
+                                    <span class="nav-link-text">Getting Started</span>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link link-secondary" aria-current="page" href="#!">
+                                    <div class="nav-link-icon text-dark-emphasis">
+                                        <i class="bi bi-arrow-right-short"></i>
+                                    </div>
+                                    <span class="nav-link-text">Foundation</span>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link link-secondary" aria-current="page" href="#!">
+                                    <div class="nav-link-icon text-dark-emphasis">
+                                        <i class="bi bi-arrow-right-short"></i>
+                                    </div>
+                                    <span class="nav-link-text">FAQs</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link p-3" data-bs-toggle="collapse" href="#frameworkExamples" role="button" aria-expanded="false" aria-controls="frameworkExamples">
+                        <div class="nav-link-icon text-dark">
+                            <i class="bi bi-shield-plus"></i>
+                        </div>
+                        <span class="nav-link-text fw-bold">Framework</span>
+                    </a>
+                    <div class="collapse" id="frameworkExamples">
+                        <ul class="nav flex-column ms-4">
+                            <li class="nav-item">
+                                <a class="nav-link link-secondary" aria-current="page" href="#!">
+                                    <div class="nav-link-icon text-dark-emphasis">
+                                        <i class="bi bi-arrow-right-short"></i>
+                                    </div>
+                                    <span class="nav-link-text">Developers</span>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link link-secondary" aria-current="page" href="#!">
+                                    <div class="nav-link-icon text-dark-emphasis">
+                                        <i class="bi bi-arrow-right-short"></i>
+                                    </div>
+                                    <span class="nav-link-text">API</span>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link link-secondary" aria-current="page" href="#!">
+                                    <div class="nav-link-icon text-dark-emphasis">
+                                        <i class="bi bi-arrow-right-short"></i>
+                                    </div>
+                                    <span class="nav-link-text">Changelog</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+            <hr class="sidebar-divider my-4">
+            <div class="bg-light rounded-3 position-relative px-4 pt-5 pb-4 mt-7">
+                <div class="bsb-w-80 bsb-h-80 d-flex align-items-center justify-content-center text-bg-primary border border-5 border-white rounded-circle position-absolute top-0 start-50 translate-middle">
+                    <i class="bi bi-rocket-takeoff lh-1 fs-3"></i>
+                </div>
+                <div class="text-center">
+                    <h3 class="h5">Pro Snippets</h3>
+                    <p class="fs-7">Our meticulously crafted code snippets are handy for everyday tasks, allowing you to breeze through your projects.</p>
+                    <div class="d-grid m-0">
+                        <a class="btn btn-primary rounded-pill" href="https://bootstrapbrain.com/license/" role="button">Upgrade</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </aside>
+
+    <!-- Footer 6  -->
+    <footer class="footer">
+
+        <!-- Widgets -->
+        <div class="bg-light py-3 py-md-5 py-xl-8 border-top border-light-subtle">
+            <div class="container overflow-hidden">
+                <div class="row gy-3 gy-md-5 gy-xl-0 align-items-sm-center">
+                    <div class="col-xs-12 col-sm-6 col-xl-3 order-0 order-xl-0">
+                        <div class="footer-logo-wrapper text-center text-sm-start">
+                            <a href="#!">
+                                <img src="~/assets/images/hdev_square.svg" class="logo img-fluid" alt="harryis.dev">
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="col-xs-12 col-xl-6 order-2 order-xl-1">
+                        <ul class="nav justify-content-center">
+                            <li class="nav-item">
+                                <a class="nav-link link-secondary px-2 px-md-3" href="#!">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link link-secondary px-2 px-md-3" href="#!">Contact</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link link-secondary px-2 px-md-3" href="#!">Advertise</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link link-secondary px-2 px-md-3" href="#!">Terms</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link link-secondary px-2 px-md-3" href="#!">Privacy</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="col-xs-12 col-sm-6 col-xl-3 order-1 order-xl-2">
+                        <div class="social-media-wrapper">
+                            <ul class="list-unstyled m-0 p-0 d-flex justify-content-center justify-content-sm-end">
+                                <li class="me-3">
+                                    <a href="#!" class="link-dark link-opacity-75-hover">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+                                            <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z" />
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li class="me-3">
+                                    <a href="#!" class="link-dark link-opacity-75-hover">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-youtube" viewBox="0 0 16 16">
+                                            <path d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.007 2.007 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.007 2.007 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31.4 31.4 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.007 2.007 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A99.788 99.788 0 0 1 7.858 2h.193zM6.4 5.209v4.818l4.157-2.408L6.4 5.209z" />
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li class="me-3">
+                                    <a href="#!" class="link-dark link-opacity-75-hover">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-twitter" viewBox="0 0 16 16">
+                                            <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z" />
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li class="">
+                                    <a href="#!" class="link-dark link-opacity-75-hover">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+                                            <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z" />
+                                        </svg>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Copyright - Bootstrap Brain Component -->
+        @* <div class="bg-light py-3 py-md-5 border-top border-light-subtle">
+        <div class="container overflow-hidden">
+        <div class="row">
+        <div class="col">
+        <div class="footer-copyright-wrapper text-center">
+        &copy; 2024. All Rights Reserved.
+        </div>
+        <div class="credits text-secondary text-center mt-2 fs-8">
+        Built by <a href="https://bootstrapbrain.com/" class="link-secondary text-decoration-none">BootstrapBrain</a> with <span class="text-primary">&#9829;</span>
+        </div>
+        </div>
+        </div>
+        </div>
+        </div> *@
+
+    </footer>
+</body>
+</html>

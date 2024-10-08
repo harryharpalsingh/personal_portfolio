@@ -49,6 +49,30 @@
       "PackagePath": "staticwebassets\\assets\\images\\señor_harpal.webp"
     },
     {
+      "Id": "D:\\Work Data\\@back-end-development\\#Portfolio\\Portfolio\\harryisdev\\wwwroot\\css\\Admin\\bootstrap-icons.min.css",
+      "PackagePath": "staticwebassets\\css\\Admin\\bootstrap-icons.min.css"
+    },
+    {
+      "Id": "D:\\Work Data\\@back-end-development\\#Portfolio\\Portfolio\\harryisdev\\wwwroot\\css\\Admin\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\Admin\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\Work Data\\@back-end-development\\#Portfolio\\Portfolio\\harryisdev\\wwwroot\\css\\Admin\\font-size.css",
+      "PackagePath": "staticwebassets\\css\\Admin\\font-size.css"
+    },
+    {
+      "Id": "D:\\Work Data\\@back-end-development\\#Portfolio\\Portfolio\\harryisdev\\wwwroot\\css\\Admin\\navbar-3.css",
+      "PackagePath": "staticwebassets\\css\\Admin\\navbar-3.css"
+    },
+    {
+      "Id": "D:\\Work Data\\@back-end-development\\#Portfolio\\Portfolio\\harryisdev\\wwwroot\\css\\Admin\\padding.css",
+      "PackagePath": "staticwebassets\\css\\Admin\\padding.css"
+    },
+    {
+      "Id": "D:\\Work Data\\@back-end-development\\#Portfolio\\Portfolio\\harryisdev\\wwwroot\\css\\Admin\\sidebar-1.css",
+      "PackagePath": "staticwebassets\\css\\Admin\\sidebar-1.css"
+    },
+    {
       "Id": "D:\\Work Data\\@back-end-development\\#Portfolio\\Portfolio\\harryisdev\\wwwroot\\css\\about-fact.css",
       "PackagePath": "staticwebassets\\css\\about-fact.css"
     },
@@ -87,6 +111,10 @@
     {
       "Id": "D:\\Work Data\\@back-end-development\\#Portfolio\\Portfolio\\harryisdev\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\Work Data\\@back-end-development\\#Portfolio\\Portfolio\\harryisdev\\wwwroot\\js\\Admin\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\js\\Admin\\bootstrap.bundle.min.js"
     },
     {
       "Id": "D:\\Work Data\\@back-end-development\\#Portfolio\\Portfolio\\harryisdev\\wwwroot\\js\\site.js",
