@@ -22,7 +22,7 @@ namespace harryisdev.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder, 1L, 1);
 
-            modelBuilder.Entity("harryisdev.Models.BlogMain", b =>
+            modelBuilder.Entity("harryisdev.Models.BlogMaster", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -30,7 +30,11 @@ namespace harryisdev.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
 
-                    b.Property<string>("ContentText")
+                    b.Property<string>("BlogData")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("BlogTitle")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
@@ -45,7 +49,7 @@ namespace harryisdev.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Blogs");
+                    b.ToTable("BlogMaster");
                 });
 #pragma warning restore 612, 618
         }

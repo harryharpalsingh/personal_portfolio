@@ -10,6 +10,6 @@ namespace harryisdev.Data
 
         }
 
-        public DbSet<BlogMain> Blogs { get; set; }
+        public DbSet<BlogMaster> BlogMaster { get; set; }
     }
 }

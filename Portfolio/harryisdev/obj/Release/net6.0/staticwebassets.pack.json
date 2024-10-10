@@ -49,28 +49,144 @@
       "PackagePath": "staticwebassets\\assets\\images\\señor_harpal.webp"
     },
     {
-      "Id": "D:\\Work Data\\@back-end-development\\#Portfolio\\Portfolio\\harryisdev\\wwwroot\\css\\Admin\\bootstrap-icons.min.css",
-      "PackagePath": "staticwebassets\\css\\Admin\\bootstrap-icons.min.css"
-    },
-    {
       "Id": "D:\\Work Data\\@back-end-development\\#Portfolio\\Portfolio\\harryisdev\\wwwroot\\css\\Admin\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\css\\Admin\\bootstrap.min.css"
     },
     {
-      "Id": "D:\\Work Data\\@back-end-development\\#Portfolio\\Portfolio\\harryisdev\\wwwroot\\css\\Admin\\font-size.css",
-      "PackagePath": "staticwebassets\\css\\Admin\\font-size.css"
+      "Id": "D:\\Work Data\\@back-end-development\\#Portfolio\\Portfolio\\harryisdev\\wwwroot\\css\\Admin\\demo.css",
+      "PackagePath": "staticwebassets\\css\\Admin\\demo.css"
     },
     {
-      "Id": "D:\\Work Data\\@back-end-development\\#Portfolio\\Portfolio\\harryisdev\\wwwroot\\css\\Admin\\navbar-3.css",
-      "PackagePath": "staticwebassets\\css\\Admin\\navbar-3.css"
+      "Id": "D:\\Work Data\\@back-end-development\\#Portfolio\\Portfolio\\harryisdev\\wwwroot\\css\\Admin\\demo.css.map",
+      "PackagePath": "staticwebassets\\css\\Admin\\demo.css.map"
     },
     {
-      "Id": "D:\\Work Data\\@back-end-development\\#Portfolio\\Portfolio\\harryisdev\\wwwroot\\css\\Admin\\padding.css",
-      "PackagePath": "staticwebassets\\css\\Admin\\padding.css"
+      "Id": "D:\\Work Data\\@back-end-development\\#Portfolio\\Portfolio\\harryisdev\\wwwroot\\css\\Admin\\fonts.css",
+      "PackagePath": "staticwebassets\\css\\Admin\\fonts.css"
     },
     {
-      "Id": "D:\\Work Data\\@back-end-development\\#Portfolio\\Portfolio\\harryisdev\\wwwroot\\css\\Admin\\sidebar-1.css",
-      "PackagePath": "staticwebassets\\css\\Admin\\sidebar-1.css"
+      "Id": "D:\\Work Data\\@back-end-development\\#Portfolio\\Portfolio\\harryisdev\\wwwroot\\css\\Admin\\fonts.min.css",
+      "PackagePath": "staticwebassets\\css\\Admin\\fonts.min.css"
+    },
+    {
+      "Id": "D:\\Work Data\\@back-end-development\\#Portfolio\\Portfolio\\harryisdev\\wwwroot\\css\\Admin\\fonts\\fontawesome\\fa-brands-400.eot",
+      "PackagePath": "staticwebassets\\css\\Admin\\fonts\\fontawesome\\fa-brands-400.eot"
+    },
+    {
+      "Id": "D:\\Work Data\\@back-end-development\\#Portfolio\\Portfolio\\harryisdev\\wwwroot\\css\\Admin\\fonts\\fontawesome\\fa-brands-400.svg",
+      "PackagePath": "staticwebassets\\css\\Admin\\fonts\\fontawesome\\fa-brands-400.svg"
+    },
+    {
+      "Id": "D:\\Work Data\\@back-end-development\\#Portfolio\\Portfolio\\harryisdev\\wwwroot\\css\\Admin\\fonts\\fontawesome\\fa-brands-400.ttf",
+      "PackagePath": "staticwebassets\\css\\Admin\\fonts\\fontawesome\\fa-brands-400.ttf"
+    },
+    {
+      "Id": "D:\\Work Data\\@back-end-development\\#Portfolio\\Portfolio\\harryisdev\\wwwroot\\css\\Admin\\fonts\\fontawesome\\fa-brands-400.woff",
+      "PackagePath": "staticwebassets\\css\\Admin\\fonts\\fontawesome\\fa-brands-400.woff"
+    },
+    {
+      "Id": "D:\\Work Data\\@back-end-development\\#Portfolio\\Portfolio\\harryisdev\\wwwroot\\css\\Admin\\fonts\\fontawesome\\fa-brands-400.woff2",
+      "PackagePath": "staticwebassets\\css\\Admin\\fonts\\fontawesome\\fa-brands-400.woff2"
+    },
+    {
+      "Id": "D:\\Work Data\\@back-end-development\\#Portfolio\\Portfolio\\harryisdev\\wwwroot\\css\\Admin\\fonts\\fontawesome\\fa-regular-400.eot",
+      "PackagePath": "staticwebassets\\css\\Admin\\fonts\\fontawesome\\fa-regular-400.eot"
+    },
+    {
+      "Id": "D:\\Work Data\\@back-end-development\\#Portfolio\\Portfolio\\harryisdev\\wwwroot\\css\\Admin\\fonts\\fontawesome\\fa-regular-400.svg",
+      "PackagePath": "staticwebassets\\css\\Admin\\fonts\\fontawesome\\fa-regular-400.svg"
+    },
+    {
+      "Id": "D:\\Work Data\\@back-end-development\\#Portfolio\\Portfolio\\harryisdev\\wwwroot\\css\\Admin\\fonts\\fontawesome\\fa-regular-400.ttf",
+      "PackagePath": "staticwebassets\\css\\Admin\\fonts\\fontawesome\\fa-regular-400.ttf"
+    },
+    {
+      "Id": "D:\\Work Data\\@back-end-development\\#Portfolio\\Portfolio\\harryisdev\\wwwroot\\css\\Admin\\fonts\\fontawesome\\fa-regular-400.woff",
+      "PackagePath": "staticwebassets\\css\\Admin\\fonts\\fontawesome\\fa-regular-400.woff"
+    },
+    {
+      "Id": "D:\\Work Data\\@back-end-development\\#Portfolio\\Portfolio\\harryisdev\\wwwroot\\css\\Admin\\fonts\\fontawesome\\fa-regular-400.woff2",
+      "PackagePath": "staticwebassets\\css\\Admin\\fonts\\fontawesome\\fa-regular-400.woff2"
+    },
+    {
+      "Id": "D:\\Work Data\\@back-end-development\\#Portfolio\\Portfolio\\harryisdev\\wwwroot\\css\\Admin\\fonts\\fontawesome\\fa-solid-900.eot",
+      "PackagePath": "staticwebassets\\css\\Admin\\fonts\\fontawesome\\fa-solid-900.eot"
+    },
+    {
+      "Id": "D:\\Work Data\\@back-end-development\\#Portfolio\\Portfolio\\harryisdev\\wwwroot\\css\\Admin\\fonts\\fontawesome\\fa-solid-900.svg",
+      "PackagePath": "staticwebassets\\css\\Admin\\fonts\\fontawesome\\fa-solid-900.svg"
+    },
+    {
+      "Id": "D:\\Work Data\\@back-end-development\\#Portfolio\\Portfolio\\harryisdev\\wwwroot\\css\\Admin\\fonts\\fontawesome\\fa-solid-900.ttf",
+      "PackagePath": "staticwebassets\\css\\Admin\\fonts\\fontawesome\\fa-solid-900.ttf"
+    },
+    {
+      "Id": "D:\\Work Data\\@back-end-development\\#Portfolio\\Portfolio\\harryisdev\\wwwroot\\css\\Admin\\fonts\\fontawesome\\fa-solid-900.woff",
+      "PackagePath": "staticwebassets\\css\\Admin\\fonts\\fontawesome\\fa-solid-900.woff"
+    },
+    {
+      "Id": "D:\\Work Data\\@back-end-development\\#Portfolio\\Portfolio\\harryisdev\\wwwroot\\css\\Admin\\fonts\\fontawesome\\fa-solid-900.woff2",
+      "PackagePath": "staticwebassets\\css\\Admin\\fonts\\fontawesome\\fa-solid-900.woff2"
+    },
+    {
+      "Id": "D:\\Work Data\\@back-end-development\\#Portfolio\\Portfolio\\harryisdev\\wwwroot\\css\\Admin\\fonts\\simple-line-icons\\Simple-Line-Icons.eot",
+      "PackagePath": "staticwebassets\\css\\Admin\\fonts\\simple-line-icons\\Simple-Line-Icons.eot"
+    },
+    {
+      "Id": "D:\\Work Data\\@back-end-development\\#Portfolio\\Portfolio\\harryisdev\\wwwroot\\css\\Admin\\fonts\\simple-line-icons\\Simple-Line-Icons.svg",
+      "PackagePath": "staticwebassets\\css\\Admin\\fonts\\simple-line-icons\\Simple-Line-Icons.svg"
+    },
+    {
+      "Id": "D:\\Work Data\\@back-end-development\\#Portfolio\\Portfolio\\harryisdev\\wwwroot\\css\\Admin\\fonts\\simple-line-icons\\Simple-Line-Icons.ttf",
+      "PackagePath": "staticwebassets\\css\\Admin\\fonts\\simple-line-icons\\Simple-Line-Icons.ttf"
+    },
+    {
+      "Id": "D:\\Work Data\\@back-end-development\\#Portfolio\\Portfolio\\harryisdev\\wwwroot\\css\\Admin\\fonts\\simple-line-icons\\Simple-Line-Icons.woff",
+      "PackagePath": "staticwebassets\\css\\Admin\\fonts\\simple-line-icons\\Simple-Line-Icons.woff"
+    },
+    {
+      "Id": "D:\\Work Data\\@back-end-development\\#Portfolio\\Portfolio\\harryisdev\\wwwroot\\css\\Admin\\fonts\\simple-line-icons\\Simple-Line-Icons.woff2",
+      "PackagePath": "staticwebassets\\css\\Admin\\fonts\\simple-line-icons\\Simple-Line-Icons.woff2"
+    },
+    {
+      "Id": "D:\\Work Data\\@back-end-development\\#Portfolio\\Portfolio\\harryisdev\\wwwroot\\css\\Admin\\fonts\\summernote\\summernote.eot",
+      "PackagePath": "staticwebassets\\css\\Admin\\fonts\\summernote\\summernote.eot"
+    },
+    {
+      "Id": "D:\\Work Data\\@back-end-development\\#Portfolio\\Portfolio\\harryisdev\\wwwroot\\css\\Admin\\fonts\\summernote\\summernote.ttf",
+      "PackagePath": "staticwebassets\\css\\Admin\\fonts\\summernote\\summernote.ttf"
+    },
+    {
+      "Id": "D:\\Work Data\\@back-end-development\\#Portfolio\\Portfolio\\harryisdev\\wwwroot\\css\\Admin\\fonts\\summernote\\summernote.woff",
+      "PackagePath": "staticwebassets\\css\\Admin\\fonts\\summernote\\summernote.woff"
+    },
+    {
+      "Id": "D:\\Work Data\\@back-end-development\\#Portfolio\\Portfolio\\harryisdev\\wwwroot\\css\\Admin\\fonts\\summernote\\summernote.woff2",
+      "PackagePath": "staticwebassets\\css\\Admin\\fonts\\summernote\\summernote.woff2"
+    },
+    {
+      "Id": "D:\\Work Data\\@back-end-development\\#Portfolio\\Portfolio\\harryisdev\\wwwroot\\css\\Admin\\kaiadmin.css",
+      "PackagePath": "staticwebassets\\css\\Admin\\kaiadmin.css"
+    },
+    {
+      "Id": "D:\\Work Data\\@back-end-development\\#Portfolio\\Portfolio\\harryisdev\\wwwroot\\css\\Admin\\kaiadmin.css.map",
+      "PackagePath": "staticwebassets\\css\\Admin\\kaiadmin.css.map"
+    },
+    {
+      "Id": "D:\\Work Data\\@back-end-development\\#Portfolio\\Portfolio\\harryisdev\\wwwroot\\css\\Admin\\kaiadmin.min.css",
+      "PackagePath": "staticwebassets\\css\\Admin\\kaiadmin.min.css"
+    },
+    {
+      "Id": "D:\\Work Data\\@back-end-development\\#Portfolio\\Portfolio\\harryisdev\\wwwroot\\css\\Admin\\plugins.css",
+      "PackagePath": "staticwebassets\\css\\Admin\\plugins.css"
+    },
+    {
+      "Id": "D:\\Work Data\\@back-end-development\\#Portfolio\\Portfolio\\harryisdev\\wwwroot\\css\\Admin\\plugins.css.map",
+      "PackagePath": "staticwebassets\\css\\Admin\\plugins.css.map"
+    },
+    {
+      "Id": "D:\\Work Data\\@back-end-development\\#Portfolio\\Portfolio\\harryisdev\\wwwroot\\css\\Admin\\plugins.min.css",
+      "PackagePath": "staticwebassets\\css\\Admin\\plugins.min.css"
     },
     {
       "Id": "D:\\Work Data\\@back-end-development\\#Portfolio\\Portfolio\\harryisdev\\wwwroot\\css\\about-fact.css",
@@ -115,6 +231,146 @@
     {
       "Id": "D:\\Work Data\\@back-end-development\\#Portfolio\\Portfolio\\harryisdev\\wwwroot\\js\\Admin\\bootstrap.bundle.min.js",
       "PackagePath": "staticwebassets\\js\\Admin\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "D:\\Work Data\\@back-end-development\\#Portfolio\\Portfolio\\harryisdev\\wwwroot\\js\\Admin\\core\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\js\\Admin\\core\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\Work Data\\@back-end-development\\#Portfolio\\Portfolio\\harryisdev\\wwwroot\\js\\Admin\\core\\jquery-3.7.1.min.js",
+      "PackagePath": "staticwebassets\\js\\Admin\\core\\jquery-3.7.1.min.js"
+    },
+    {
+      "Id": "D:\\Work Data\\@back-end-development\\#Portfolio\\Portfolio\\harryisdev\\wwwroot\\js\\Admin\\core\\popper.min.js",
+      "PackagePath": "staticwebassets\\js\\Admin\\core\\popper.min.js"
+    },
+    {
+      "Id": "D:\\Work Data\\@back-end-development\\#Portfolio\\Portfolio\\harryisdev\\wwwroot\\js\\Admin\\demo.js",
+      "PackagePath": "staticwebassets\\js\\Admin\\demo.js"
+    },
+    {
+      "Id": "D:\\Work Data\\@back-end-development\\#Portfolio\\Portfolio\\harryisdev\\wwwroot\\js\\Admin\\kaiadmin.js",
+      "PackagePath": "staticwebassets\\js\\Admin\\kaiadmin.js"
+    },
+    {
+      "Id": "D:\\Work Data\\@back-end-development\\#Portfolio\\Portfolio\\harryisdev\\wwwroot\\js\\Admin\\kaiadmin.min.js",
+      "PackagePath": "staticwebassets\\js\\Admin\\kaiadmin.min.js"
+    },
+    {
+      "Id": "D:\\Work Data\\@back-end-development\\#Portfolio\\Portfolio\\harryisdev\\wwwroot\\js\\Admin\\plugin\\bootstrap-notify\\bootstrap-notify.min.js",
+      "PackagePath": "staticwebassets\\js\\Admin\\plugin\\bootstrap-notify\\bootstrap-notify.min.js"
+    },
+    {
+      "Id": "D:\\Work Data\\@back-end-development\\#Portfolio\\Portfolio\\harryisdev\\wwwroot\\js\\Admin\\plugin\\bootstrap-tagsinput\\bootstrap-tagsinput.min.js",
+      "PackagePath": "staticwebassets\\js\\Admin\\plugin\\bootstrap-tagsinput\\bootstrap-tagsinput.min.js"
+    },
+    {
+      "Id": "D:\\Work Data\\@back-end-development\\#Portfolio\\Portfolio\\harryisdev\\wwwroot\\js\\Admin\\plugin\\bootstrap-toggle\\bootstrap-toggle.min.js",
+      "PackagePath": "staticwebassets\\js\\Admin\\plugin\\bootstrap-toggle\\bootstrap-toggle.min.js"
+    },
+    {
+      "Id": "D:\\Work Data\\@back-end-development\\#Portfolio\\Portfolio\\harryisdev\\wwwroot\\js\\Admin\\plugin\\chart-circle\\circles.min.js",
+      "PackagePath": "staticwebassets\\js\\Admin\\plugin\\chart-circle\\circles.min.js"
+    },
+    {
+      "Id": "D:\\Work Data\\@back-end-development\\#Portfolio\\Portfolio\\harryisdev\\wwwroot\\js\\Admin\\plugin\\chart.js\\chart.min.js",
+      "PackagePath": "staticwebassets\\js\\Admin\\plugin\\chart.js\\chart.min.js"
+    },
+    {
+      "Id": "D:\\Work Data\\@back-end-development\\#Portfolio\\Portfolio\\harryisdev\\wwwroot\\js\\Admin\\plugin\\datatables\\datatables.min.js",
+      "PackagePath": "staticwebassets\\js\\Admin\\plugin\\datatables\\datatables.min.js"
+    },
+    {
+      "Id": "D:\\Work Data\\@back-end-development\\#Portfolio\\Portfolio\\harryisdev\\wwwroot\\js\\Admin\\plugin\\datepicker\\bootstrap-datetimepicker.min.js",
+      "PackagePath": "staticwebassets\\js\\Admin\\plugin\\datepicker\\bootstrap-datetimepicker.min.js"
+    },
+    {
+      "Id": "D:\\Work Data\\@back-end-development\\#Portfolio\\Portfolio\\harryisdev\\wwwroot\\js\\Admin\\plugin\\dropzone\\dropzone.min.js",
+      "PackagePath": "staticwebassets\\js\\Admin\\plugin\\dropzone\\dropzone.min.js"
+    },
+    {
+      "Id": "D:\\Work Data\\@back-end-development\\#Portfolio\\Portfolio\\harryisdev\\wwwroot\\js\\Admin\\plugin\\fullcalendar\\fullcalendar.min.js",
+      "PackagePath": "staticwebassets\\js\\Admin\\plugin\\fullcalendar\\fullcalendar.min.js"
+    },
+    {
+      "Id": "D:\\Work Data\\@back-end-development\\#Portfolio\\Portfolio\\harryisdev\\wwwroot\\js\\Admin\\plugin\\gmaps\\gmaps.js",
+      "PackagePath": "staticwebassets\\js\\Admin\\plugin\\gmaps\\gmaps.js"
+    },
+    {
+      "Id": "D:\\Work Data\\@back-end-development\\#Portfolio\\Portfolio\\harryisdev\\wwwroot\\js\\Admin\\plugin\\jquery-scrollbar\\jquery.scrollbar.min.js",
+      "PackagePath": "staticwebassets\\js\\Admin\\plugin\\jquery-scrollbar\\jquery.scrollbar.min.js"
+    },
+    {
+      "Id": "D:\\Work Data\\@back-end-development\\#Portfolio\\Portfolio\\harryisdev\\wwwroot\\js\\Admin\\plugin\\jquery.magnific-popup\\jquery.magnific-popup.min.js",
+      "PackagePath": "staticwebassets\\js\\Admin\\plugin\\jquery.magnific-popup\\jquery.magnific-popup.min.js"
+    },
+    {
+      "Id": "D:\\Work Data\\@back-end-development\\#Portfolio\\Portfolio\\harryisdev\\wwwroot\\js\\Admin\\plugin\\jquery.sparkline\\jquery.sparkline.min.js",
+      "PackagePath": "staticwebassets\\js\\Admin\\plugin\\jquery.sparkline\\jquery.sparkline.min.js"
+    },
+    {
+      "Id": "D:\\Work Data\\@back-end-development\\#Portfolio\\Portfolio\\harryisdev\\wwwroot\\js\\Admin\\plugin\\jquery.validate\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\js\\Admin\\plugin\\jquery.validate\\jquery.validate.min.js"
+    },
+    {
+      "Id": "D:\\Work Data\\@back-end-development\\#Portfolio\\Portfolio\\harryisdev\\wwwroot\\js\\Admin\\plugin\\jsvectormap\\jsvectormap.min.js",
+      "PackagePath": "staticwebassets\\js\\Admin\\plugin\\jsvectormap\\jsvectormap.min.js"
+    },
+    {
+      "Id": "D:\\Work Data\\@back-end-development\\#Portfolio\\Portfolio\\harryisdev\\wwwroot\\js\\Admin\\plugin\\jsvectormap\\world.js",
+      "PackagePath": "staticwebassets\\js\\Admin\\plugin\\jsvectormap\\world.js"
+    },
+    {
+      "Id": "D:\\Work Data\\@back-end-development\\#Portfolio\\Portfolio\\harryisdev\\wwwroot\\js\\Admin\\plugin\\list.js\\list.min.js",
+      "PackagePath": "staticwebassets\\js\\Admin\\plugin\\list.js\\list.min.js"
+    },
+    {
+      "Id": "D:\\Work Data\\@back-end-development\\#Portfolio\\Portfolio\\harryisdev\\wwwroot\\js\\Admin\\plugin\\moment\\moment.min.js",
+      "PackagePath": "staticwebassets\\js\\Admin\\plugin\\moment\\moment.min.js"
+    },
+    {
+      "Id": "D:\\Work Data\\@back-end-development\\#Portfolio\\Portfolio\\harryisdev\\wwwroot\\js\\Admin\\plugin\\owl-carousel\\ajax-loader.gif",
+      "PackagePath": "staticwebassets\\js\\Admin\\plugin\\owl-carousel\\ajax-loader.gif"
+    },
+    {
+      "Id": "D:\\Work Data\\@back-end-development\\#Portfolio\\Portfolio\\harryisdev\\wwwroot\\js\\Admin\\plugin\\owl-carousel\\owl.carousel.min.js",
+      "PackagePath": "staticwebassets\\js\\Admin\\plugin\\owl-carousel\\owl.carousel.min.js"
+    },
+    {
+      "Id": "D:\\Work Data\\@back-end-development\\#Portfolio\\Portfolio\\harryisdev\\wwwroot\\js\\Admin\\plugin\\owl-carousel\\owl.video.play.png",
+      "PackagePath": "staticwebassets\\js\\Admin\\plugin\\owl-carousel\\owl.video.play.png"
+    },
+    {
+      "Id": "D:\\Work Data\\@back-end-development\\#Portfolio\\Portfolio\\harryisdev\\wwwroot\\js\\Admin\\plugin\\select2\\select2.full.min.js",
+      "PackagePath": "staticwebassets\\js\\Admin\\plugin\\select2\\select2.full.min.js"
+    },
+    {
+      "Id": "D:\\Work Data\\@back-end-development\\#Portfolio\\Portfolio\\harryisdev\\wwwroot\\js\\Admin\\plugin\\sortable\\sortable.min.js",
+      "PackagePath": "staticwebassets\\js\\Admin\\plugin\\sortable\\sortable.min.js"
+    },
+    {
+      "Id": "D:\\Work Data\\@back-end-development\\#Portfolio\\Portfolio\\harryisdev\\wwwroot\\js\\Admin\\plugin\\sticky-sidebar\\sticky-sidebar.min.js",
+      "PackagePath": "staticwebassets\\js\\Admin\\plugin\\sticky-sidebar\\sticky-sidebar.min.js"
+    },
+    {
+      "Id": "D:\\Work Data\\@back-end-development\\#Portfolio\\Portfolio\\harryisdev\\wwwroot\\js\\Admin\\plugin\\summernote\\summernote-lite.min.js",
+      "PackagePath": "staticwebassets\\js\\Admin\\plugin\\summernote\\summernote-lite.min.js"
+    },
+    {
+      "Id": "D:\\Work Data\\@back-end-development\\#Portfolio\\Portfolio\\harryisdev\\wwwroot\\js\\Admin\\plugin\\sweetalert\\sweetalert.min.js",
+      "PackagePath": "staticwebassets\\js\\Admin\\plugin\\sweetalert\\sweetalert.min.js"
+    },
+    {
+      "Id": "D:\\Work Data\\@back-end-development\\#Portfolio\\Portfolio\\harryisdev\\wwwroot\\js\\Admin\\plugin\\webfont\\webfont.min.js",
+      "PackagePath": "staticwebassets\\js\\Admin\\plugin\\webfont\\webfont.min.js"
+    },
+    {
+      "Id": "D:\\Work Data\\@back-end-development\\#Portfolio\\Portfolio\\harryisdev\\wwwroot\\js\\Admin\\setting-demo.js",
+      "PackagePath": "staticwebassets\\js\\Admin\\setting-demo.js"
+    },
+    {
+      "Id": "D:\\Work Data\\@back-end-development\\#Portfolio\\Portfolio\\harryisdev\\wwwroot\\js\\Admin\\setting-demo2.js",
+      "PackagePath": "staticwebassets\\js\\Admin\\setting-demo2.js"
     },
     {
       "Id": "D:\\Work Data\\@back-end-development\\#Portfolio\\Portfolio\\harryisdev\\wwwroot\\js\\site.js",
