@@ -8,6 +8,10 @@ builder.Services.AddControllersWithViews();
 builder.Services.AddDbContext<ApplicationDbContext>(options => options.UseSqlServer(
     builder.Configuration.GetConnectionString("DefaultConnectionString")));
 
+//Add Razor runtime compilation
+//install Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation from Nuget Package Manager
+builder.Services.AddRazorPages().AddRazorRuntimeCompilation();
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

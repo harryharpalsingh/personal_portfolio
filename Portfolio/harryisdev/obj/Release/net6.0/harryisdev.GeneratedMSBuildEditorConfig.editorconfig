@@ -14,9 +14,13 @@ build_property.EnableComHosting =
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
-build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = true
 build_property.MSBuildProjectDirectory = D:\Work Data\@back-end-development\#Portfolio\Portfolio\harryisdev
 build_property._RazorSourceGeneratorDebug = 
+
+[D:/Work Data/@back-end-development/\#Portfolio/Portfolio/harryisdev/Areas/Admin/Views/CreateBlog/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ3JlYXRlQmxvZ1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
 
 [D:/Work Data/@back-end-development/\#Portfolio/Portfolio/harryisdev/Areas/Admin/Views/Dashboard/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcRGFzaGJvYXJkXEluZGV4LmNzaHRtbA==
@@ -24,6 +28,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [D:/Work Data/@back-end-development/\#Portfolio/Portfolio/harryisdev/Areas/Admin/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Work Data/@back-end-development/\#Portfolio/Portfolio/harryisdev/Areas/Admin/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/Work Data/@back-end-development/\#Portfolio/Portfolio/harryisdev/Areas/Admin/Views/_ViewStart.cshtml]
