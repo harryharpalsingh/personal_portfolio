@@ -3,28 +3,52 @@
   "WorkspaceRootPath": "D:\\Work Data\\@back-end-development\\#Portfolio\\Portfolio\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7BF4B958-8FD3-44A8-90C5-68FFA1B4B0A8}|harryisdev\\harryisdev.csproj|d:\\work data\\@back-end-development\\#portfolio\\portfolio\\harryisdev\\areas\\admin\\views\\createblog\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7BF4B958-8FD3-44A8-90C5-68FFA1B4B0A8}|harryisdev\\harryisdev.csproj|solutionrelative:harryisdev\\areas\\admin\\views\\createblog\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{7BF4B958-8FD3-44A8-90C5-68FFA1B4B0A8}|harryisdev\\harryisdev.csproj|d:\\work data\\@back-end-development\\#portfolio\\portfolio\\harryisdev\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{7BF4B958-8FD3-44A8-90C5-68FFA1B4B0A8}|harryisdev\\harryisdev.csproj|solutionrelative:harryisdev\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7BF4B958-8FD3-44A8-90C5-68FFA1B4B0A8}|harryisdev\\harryisdev.csproj|d:\\work data\\@back-end-development\\#portfolio\\portfolio\\harryisdev\\areas\\admin\\controllers\\createblogcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7BF4B958-8FD3-44A8-90C5-68FFA1B4B0A8}|harryisdev\\harryisdev.csproj|solutionrelative:harryisdev\\areas\\admin\\controllers\\createblogcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Work Data\\@back-end-development\\#Portfolio\\Portfolio\\harryisdev\\Migrations\\20241017092355_dbNew.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:harryisdev\\Migrations\\20241017092355_dbNew.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7BF4B958-8FD3-44A8-90C5-68FFA1B4B0A8}|harryisdev\\harryisdev.csproj|d:\\work data\\@back-end-development\\#portfolio\\portfolio\\harryisdev\\controllers\\blogcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7BF4B958-8FD3-44A8-90C5-68FFA1B4B0A8}|harryisdev\\harryisdev.csproj|solutionrelative:harryisdev\\controllers\\blogcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7BF4B958-8FD3-44A8-90C5-68FFA1B4B0A8}|harryisdev\\harryisdev.csproj|d:\\work data\\@back-end-development\\#portfolio\\portfolio\\harryisdev\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7BF4B958-8FD3-44A8-90C5-68FFA1B4B0A8}|harryisdev\\harryisdev.csproj|solutionrelative:harryisdev\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7BF4B958-8FD3-44A8-90C5-68FFA1B4B0A8}|harryisdev\\harryisdev.csproj|d:\\work data\\@back-end-development\\#portfolio\\portfolio\\harryisdev\\models\\blogmaster.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7BF4B958-8FD3-44A8-90C5-68FFA1B4B0A8}|harryisdev\\harryisdev.csproj|solutionrelative:harryisdev\\models\\blogmaster.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7BF4B958-8FD3-44A8-90C5-68FFA1B4B0A8}|harryisdev\\harryisdev.csproj|d:\\work data\\@back-end-development\\#portfolio\\portfolio\\harryisdev\\views\\blog\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7BF4B958-8FD3-44A8-90C5-68FFA1B4B0A8}|harryisdev\\harryisdev.csproj|solutionrelative:harryisdev\\views\\blog\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BF4B958-8FD3-44A8-90C5-68FFA1B4B0A8}|harryisdev\\harryisdev.csproj|d:\\work data\\@back-end-development\\#portfolio\\portfolio\\harryisdev\\areas\\admin\\views\\bloglist\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7BF4B958-8FD3-44A8-90C5-68FFA1B4B0A8}|harryisdev\\harryisdev.csproj|solutionrelative:harryisdev\\areas\\admin\\views\\bloglist\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BF4B958-8FD3-44A8-90C5-68FFA1B4B0A8}|harryisdev\\harryisdev.csproj|d:\\work data\\@back-end-development\\#portfolio\\portfolio\\harryisdev\\wwwroot\\css\\admin\\kaiadmin.min.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{7BF4B958-8FD3-44A8-90C5-68FFA1B4B0A8}|harryisdev\\harryisdev.csproj|solutionrelative:harryisdev\\wwwroot\\css\\admin\\kaiadmin.min.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BF4B958-8FD3-44A8-90C5-68FFA1B4B0A8}|harryisdev\\harryisdev.csproj|d:\\work data\\@back-end-development\\#portfolio\\portfolio\\harryisdev\\areas\\admin\\controllers\\bloglistcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7BF4B958-8FD3-44A8-90C5-68FFA1B4B0A8}|harryisdev\\harryisdev.csproj|solutionrelative:harryisdev\\areas\\admin\\controllers\\bloglistcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7BF4B958-8FD3-44A8-90C5-68FFA1B4B0A8}|harryisdev\\harryisdev.csproj|d:\\work data\\@back-end-development\\#portfolio\\portfolio\\harryisdev\\areas\\admin\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{7BF4B958-8FD3-44A8-90C5-68FFA1B4B0A8}|harryisdev\\harryisdev.csproj|solutionrelative:harryisdev\\areas\\admin\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7BF4B958-8FD3-44A8-90C5-68FFA1B4B0A8}|harryisdev\\harryisdev.csproj|d:\\work data\\@back-end-development\\#portfolio\\portfolio\\harryisdev\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7BF4B958-8FD3-44A8-90C5-68FFA1B4B0A8}|harryisdev\\harryisdev.csproj|solutionrelative:harryisdev\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7BF4B958-8FD3-44A8-90C5-68FFA1B4B0A8}|harryisdev\\harryisdev.csproj|d:\\work data\\@back-end-development\\#portfolio\\portfolio\\harryisdev\\controllers\\blogcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7BF4B958-8FD3-44A8-90C5-68FFA1B4B0A8}|harryisdev\\harryisdev.csproj|solutionrelative:harryisdev\\controllers\\blogcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BF4B958-8FD3-44A8-90C5-68FFA1B4B0A8}|harryisdev\\harryisdev.csproj|d:\\work data\\@back-end-development\\#portfolio\\portfolio\\harryisdev\\areas\\admin\\controllers\\createblogcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7BF4B958-8FD3-44A8-90C5-68FFA1B4B0A8}|harryisdev\\harryisdev.csproj|solutionrelative:harryisdev\\areas\\admin\\controllers\\createblogcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BF4B958-8FD3-44A8-90C5-68FFA1B4B0A8}|harryisdev\\harryisdev.csproj|d:\\work data\\@back-end-development\\#portfolio\\portfolio\\harryisdev\\areas\\admin\\controllers\\modifyblogcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7BF4B958-8FD3-44A8-90C5-68FFA1B4B0A8}|harryisdev\\harryisdev.csproj|solutionrelative:harryisdev\\areas\\admin\\controllers\\modifyblogcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BF4B958-8FD3-44A8-90C5-68FFA1B4B0A8}|harryisdev\\harryisdev.csproj|d:\\work data\\@back-end-development\\#portfolio\\portfolio\\harryisdev\\areas\\admin\\views\\modifyblog\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7BF4B958-8FD3-44A8-90C5-68FFA1B4B0A8}|harryisdev\\harryisdev.csproj|solutionrelative:harryisdev\\areas\\admin\\views\\modifyblog\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,80 +66,159 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "BlogMaster.cs",
-              "DocumentMoniker": "D:\\Work Data\\@back-end-development\\#Portfolio\\Portfolio\\harryisdev\\Models\\BlogMaster.cs",
-              "RelativeDocumentMoniker": "harryisdev\\Models\\BlogMaster.cs",
-              "ToolTip": "D:\\Work Data\\@back-end-development\\#Portfolio\\Portfolio\\harryisdev\\Models\\BlogMaster.cs",
-              "RelativeToolTip": "harryisdev\\Models\\BlogMaster.cs",
+              "DocumentIndex": 1,
+              "Title": "20241017092355_dbNew.cs",
+              "DocumentMoniker": "D:\\Work Data\\@back-end-development\\#Portfolio\\Portfolio\\harryisdev\\Migrations\\20241017092355_dbNew.cs",
+              "RelativeDocumentMoniker": "harryisdev\\Migrations\\20241017092355_dbNew.cs",
+              "ToolTip": "D:\\Work Data\\@back-end-development\\#Portfolio\\Portfolio\\harryisdev\\Migrations\\20241017092355_dbNew.cs",
+              "RelativeToolTip": "harryisdev\\Migrations\\20241017092355_dbNew.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-14T07:08:38.506Z",
+              "WhenOpened": "2024-10-17T09:23:55.862Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\Work Data\\@back-end-development\\#Portfolio\\Portfolio\\harryisdev\\Areas\\Admin\\Views\\CreateBlog\\Index.cshtml",
-              "RelativeDocumentMoniker": "harryisdev\\Areas\\Admin\\Views\\CreateBlog\\Index.cshtml",
-              "ToolTip": "D:\\Work Data\\@back-end-development\\#Portfolio\\Portfolio\\harryisdev\\Areas\\Admin\\Views\\CreateBlog\\Index.cshtml",
-              "RelativeToolTip": "harryisdev\\Areas\\Admin\\Views\\CreateBlog\\Index.cshtml",
-              "ViewState": "AgIAACcAAAAAAAAAAAAAADMAAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-11T09:40:08.601Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "D:\\Work Data\\@back-end-development\\#Portfolio\\Portfolio\\harryisdev\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "harryisdev\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "D:\\Work Data\\@back-end-development\\#Portfolio\\Portfolio\\harryisdev\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "harryisdev\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAABRAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-11T08:37:34.968Z",
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Work Data\\@back-end-development\\#Portfolio\\Portfolio\\harryisdev\\appsettings.json",
+              "RelativeDocumentMoniker": "harryisdev\\appsettings.json",
+              "ToolTip": "D:\\Work Data\\@back-end-development\\#Portfolio\\Portfolio\\harryisdev\\appsettings.json",
+              "RelativeToolTip": "harryisdev\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-10-17T09:18:05.683Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Work Data\\@back-end-development\\#Portfolio\\Portfolio\\harryisdev\\Program.cs",
+              "RelativeDocumentMoniker": "harryisdev\\Program.cs",
+              "ToolTip": "D:\\Work Data\\@back-end-development\\#Portfolio\\Portfolio\\harryisdev\\Program.cs",
+              "RelativeToolTip": "harryisdev\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-17T09:17:59.874Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "kaiadmin.min.css",
+              "DocumentMoniker": "D:\\Work Data\\@back-end-development\\#Portfolio\\Portfolio\\harryisdev\\wwwroot\\css\\Admin\\kaiadmin.min.css",
+              "RelativeDocumentMoniker": "harryisdev\\wwwroot\\css\\Admin\\kaiadmin.min.css",
+              "ToolTip": "D:\\Work Data\\@back-end-development\\#Portfolio\\Portfolio\\harryisdev\\wwwroot\\css\\Admin\\kaiadmin.min.css",
+              "RelativeToolTip": "harryisdev\\wwwroot\\css\\Admin\\kaiadmin.min.css",
+              "ViewState": "AgIAAJUOAAAAAAAAAAAqwKcOAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-10-17T08:43:14.511Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Work Data\\@back-end-development\\#Portfolio\\Portfolio\\harryisdev\\Areas\\Admin\\Views\\BlogList\\Index.cshtml",
+              "RelativeDocumentMoniker": "harryisdev\\Areas\\Admin\\Views\\BlogList\\Index.cshtml",
+              "ToolTip": "D:\\Work Data\\@back-end-development\\#Portfolio\\Portfolio\\harryisdev\\Areas\\Admin\\Views\\BlogList\\Index.cshtml",
+              "RelativeToolTip": "harryisdev\\Areas\\Admin\\Views\\BlogList\\Index.cshtml",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAACkAAABbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-17T08:38:31.736Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "BlogListController.cs",
+              "DocumentMoniker": "D:\\Work Data\\@back-end-development\\#Portfolio\\Portfolio\\harryisdev\\Areas\\Admin\\Controllers\\BlogListController.cs",
+              "RelativeDocumentMoniker": "harryisdev\\Areas\\Admin\\Controllers\\BlogListController.cs",
+              "ToolTip": "D:\\Work Data\\@back-end-development\\#Portfolio\\Portfolio\\harryisdev\\Areas\\Admin\\Controllers\\BlogListController.cs",
+              "RelativeToolTip": "harryisdev\\Areas\\Admin\\Controllers\\BlogListController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-17T06:49:26.532Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "BlogController.cs",
               "DocumentMoniker": "D:\\Work Data\\@back-end-development\\#Portfolio\\Portfolio\\harryisdev\\Controllers\\BlogController.cs",
               "RelativeDocumentMoniker": "harryisdev\\Controllers\\BlogController.cs",
               "ToolTip": "D:\\Work Data\\@back-end-development\\#Portfolio\\Portfolio\\harryisdev\\Controllers\\BlogController.cs",
               "RelativeToolTip": "harryisdev\\Controllers\\BlogController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-10T13:17:24.565Z",
+              "WhenOpened": "2024-10-17T06:22:35.635Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 10,
+              "Title": "ModifyBlogController.cs",
+              "DocumentMoniker": "D:\\Work Data\\@back-end-development\\#Portfolio\\Portfolio\\harryisdev\\Areas\\Admin\\Controllers\\ModifyBlogController.cs",
+              "RelativeDocumentMoniker": "harryisdev\\Areas\\Admin\\Controllers\\ModifyBlogController.cs",
+              "ToolTip": "D:\\Work Data\\@back-end-development\\#Portfolio\\Portfolio\\harryisdev\\Areas\\Admin\\Controllers\\ModifyBlogController.cs",
+              "RelativeToolTip": "harryisdev\\Areas\\Admin\\Controllers\\ModifyBlogController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-17T06:36:04.413Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "CreateBlogController.cs",
               "DocumentMoniker": "D:\\Work Data\\@back-end-development\\#Portfolio\\Portfolio\\harryisdev\\Areas\\Admin\\Controllers\\CreateBlogController.cs",
               "RelativeDocumentMoniker": "harryisdev\\Areas\\Admin\\Controllers\\CreateBlogController.cs",
               "ToolTip": "D:\\Work Data\\@back-end-development\\#Portfolio\\Portfolio\\harryisdev\\Areas\\Admin\\Controllers\\CreateBlogController.cs",
               "RelativeToolTip": "harryisdev\\Areas\\Admin\\Controllers\\CreateBlogController.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAAqwC0AAAAtAAAAAAAAAA==",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAABgAAAA6AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-11T09:39:41.378Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ApplicationDbContext.cs",
-              "DocumentMoniker": "D:\\Work Data\\@back-end-development\\#Portfolio\\Portfolio\\harryisdev\\Data\\ApplicationDbContext.cs",
-              "RelativeDocumentMoniker": "harryisdev\\Data\\ApplicationDbContext.cs",
-              "ToolTip": "D:\\Work Data\\@back-end-development\\#Portfolio\\Portfolio\\harryisdev\\Data\\ApplicationDbContext.cs",
-              "RelativeToolTip": "harryisdev\\Data\\ApplicationDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-10T12:57:28.829Z"
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Work Data\\@back-end-development\\#Portfolio\\Portfolio\\harryisdev\\Views\\Blog\\Index.cshtml",
+              "RelativeDocumentMoniker": "harryisdev\\Views\\Blog\\Index.cshtml",
+              "ToolTip": "D:\\Work Data\\@back-end-development\\#Portfolio\\Portfolio\\harryisdev\\Views\\Blog\\Index.cshtml",
+              "RelativeToolTip": "harryisdev\\Views\\Blog\\Index.cshtml",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAAC4AAABsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-17T05:56:10.255Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\Work Data\\@back-end-development\\#Portfolio\\Portfolio\\harryisdev\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "harryisdev\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\Work Data\\@back-end-development\\#Portfolio\\Portfolio\\harryisdev\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "harryisdev\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABwAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-11T08:37:34.968Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Work Data\\@back-end-development\\#Portfolio\\Portfolio\\harryisdev\\Areas\\Admin\\Views\\ModifyBlog\\Index.cshtml",
+              "RelativeDocumentMoniker": "harryisdev\\Areas\\Admin\\Views\\ModifyBlog\\Index.cshtml",
+              "ToolTip": "D:\\Work Data\\@back-end-development\\#Portfolio\\Portfolio\\harryisdev\\Areas\\Admin\\Views\\ModifyBlog\\Index.cshtml",
+              "RelativeToolTip": "harryisdev\\Areas\\Admin\\Views\\ModifyBlog\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADkAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-17T06:36:14.734Z",
+              "EditorCaption": ""
             }
           ]
         }

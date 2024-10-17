@@ -1,0 +1,65 @@
+﻿@{
+    ViewData["Title"] = "Blog List";
+    int _counter = 1;
+}
+
+@model IEnumerable<BlogMaster>
+
+<div class="row">
+    <div class="col-md-12">
+        <div class="card">
+            <div class="card-header">
+                <div class="card-title">Blog List</div>
+            </div>
+
+            <!-- Card body starts -->
+            <div class="card-body">
+                <div class="row">
+                    <div class="col-md-12 col-lg-12">
+                        <div class="form-group">
+                            <!--<label for="txtBlogTitle">Blog title</label>-->
+                            <table class="table table-bordered table-head-bg-black table-bordered-bd-black">
+                                <thead>
+                                    <tr>
+                                        <th scope="col" style="width: 5%;">#</th>
+                                        <th scope="col" style="width: 20%;">Blog title</th>
+                                        <th scope="col" style="width: 50%;">Blog content</th>
+                                        <th scope="col" style="width: 15%;">Created On</th>
+                                        <th scope="col" style="width: 10%;">Action</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    @foreach (var row in Model)
+                                    {
+                                        <tr>
+                                            <td>@_counter</td>
+                                            <td> @row.BlogTitle </td>
+                                            <td class="text-start"> @row.BlogData </td>
+                                            <td> @row.CreatedOn.ToString("dd/MM/yyyyy") </td>
+                                            <td>
+                                                <div class="form-button-action">
+                                                    <i class="fa-regular fa-pen-to-square"></i>
+                                                    <i class="fa-regular fa-trash-can"></i>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        _counter++;
+                                    }
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <!-- Card body ends -->
+            <!-- Card action starts
+            <div class="card-action d-flex align-center justify-content-center" style="gap:10px;">
+                <button type="submit" class="btn btn-dark">Submit</button>
+                <button type="button" id="btnCancel" class="btn btn-danger">Cancel</button>
+            </div>
+            Card action ends -->
+
+        </div>
+    </div>
+</div>
