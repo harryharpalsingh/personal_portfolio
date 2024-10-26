@@ -1,0 +1,25 @@
+﻿@model harryisdev.Models.BlogMaster
+
+@{
+    ViewData["Title"] = "Blog Detail";
+}
+
+<section class="py-6 py-md-5 py-xl-8 bg-light pt-5" style="padding-bottom:0px !important;">
+    <div class="container">
+        <div class="row justify-content-md-left">
+            <div class="col-12 col-md-12 col-lg-8 col-xl-7 col-xxl-12">
+                <h2 class="fw-bold mb-4 mb-md-5 text-left">@Model.BlogTitle</h2>
+            </div>
+        </div>
+    </div>
+
+    <section class="py-3 py-md-5 py-xl-8 bg-white">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-10 col-lg-8">
+                    @Html.Raw(@Model.BlogData)
+                </div>
+            </div>
+        </div>
+    </section>
+</section>

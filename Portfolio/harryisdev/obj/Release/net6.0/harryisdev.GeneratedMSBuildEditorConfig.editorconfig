@@ -18,12 +18,16 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes = true
 build_property.MSBuildProjectDirectory = D:\Work Data\@back-end-development\#Portfolio\Portfolio\harryisdev
 build_property._RazorSourceGeneratorDebug = 
 
-[D:/Work Data/@back-end-development/\#Portfolio/Portfolio/harryisdev/Areas/Admin/Views/BlogList/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQmxvZ0xpc3RcSW5kZXguY3NodG1s
+[D:/Work Data/@back-end-development/\#Portfolio/Portfolio/harryisdev/Areas/Admin/Views/Blog/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQmxvZ1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Work Data/@back-end-development/\#Portfolio/Portfolio/harryisdev/Areas/Admin/Views/CreateBlog/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ3JlYXRlQmxvZ1xJbmRleC5jc2h0bWw=
+[D:/Work Data/@back-end-development/\#Portfolio/Portfolio/harryisdev/Areas/Admin/Views/Blog/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQmxvZ1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Work Data/@back-end-development/\#Portfolio/Portfolio/harryisdev/Areas/Admin/Views/Blog/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQmxvZ1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/Work Data/@back-end-development/\#Portfolio/Portfolio/harryisdev/Areas/Admin/Views/Dashboard/Index.cshtml]
@@ -48,6 +52,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [D:/Work Data/@back-end-development/\#Portfolio/Portfolio/harryisdev/Views/About/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWJvdXRcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Work Data/@back-end-development/\#Portfolio/Portfolio/harryisdev/Views/Blog/Detail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmxvZ1xEZXRhaWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/Work Data/@back-end-development/\#Portfolio/Portfolio/harryisdev/Views/Blog/Index.cshtml]

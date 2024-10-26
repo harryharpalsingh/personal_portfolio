@@ -14,7 +14,7 @@ namespace harryisdev.Models
         public string BlogTitle { get; set; } = string.Empty;
 
         [Required(ErrorMessage = "Blog content is required")]
-        [MaxLength(500, ErrorMessage = "Content cannot exceed 500 characters")]
+        //[MaxLength(500, ErrorMessage = "Content cannot exceed 500 characters")]
         public string BlogData { get; set; } = string.Empty;
 
         public int CreatedBy { get; set; }

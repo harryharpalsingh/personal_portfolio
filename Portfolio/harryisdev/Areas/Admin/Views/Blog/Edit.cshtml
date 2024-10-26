@@ -1,0 +1,80 @@
+﻿@{
+    ViewData["Title"] = "Edit Blog";
+}
+
+@model BlogMaster
+
+@if (TempData["SuccessMessage"] != null)
+{
+    <div class="alert alert-success alert-dismissible fade show" role="alert">
+        @TempData["SuccessMessage"]
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+    </div>
+
+    @*  <script type="text/javascript">
+        document.addEventListener('DOMContentLoaded', function () {
+            document.getElementById('txtBlogTitle').value = '';
+            document.getElementById('txtBlogContent').value = '';
+        });
+    </script> *@
+}
+
+@* <script src="https://cdn.tiny.cloud/1/no-api-key/tinymce/7/tinymce.min.js" referrerpolicy="origin"></script> *@
+<script src="https://cdn.tiny.cloud/1/xtq99rd6vvfkuz6sw9v6ql7jsfqp3msibmed15fh4ku2mvg6/tinymce/7/tinymce.min.js" referrerpolicy="origin"></script>
+<script>
+    tinymce.init({
+        selector: '#txtBlogContent'
+    });
+</script>
+
+<form method="post" asp-controller="Blog" asp-action="Edit">
+    @Html.AntiForgeryToken()
+    <div class="row">
+        <div class="col-md-12">
+            <div class="card">
+                <div class="card-header">
+                    <div class="card-title">Edit blog</div>
+                </div>
+
+                <!-- Card body starts -->
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col-md-12 col-lg-12">
+                            <div class="form-group">
+                                <label for="txtBlogTitle">Blog title</label>
+                                <input type="text" id="txtBlogTitle" asp-for="BlogTitle" class="form-control" placeholder="Enter blog title" />
+                                <span asp-validation-for="BlogTitle" class="text-small text-danger"></span>
+                                @* <small id="emailHelp2" class="form-text text-muted">pssst..We'll never share your email with anyone else.</small> *@
+                            </div>
+
+                            <div class="form-group">
+                                <label for="txtBlogConent">Blog Conent</label>
+                                <textarea id="txtBlogContent" asp-for="BlogData" class="form-control" placeholder="Enter blog content" rows="4"></textarea>
+                                <span asp-validation-for="BlogData" class="text-small text-danger"></span>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <!-- Card body ends -->
+                <!-- Card action starts -->
+                <div class="card-action d-flex align-center justify-content-center" style="gap:10px;">
+                    <button type="submit" class="btn btn-primary">Update</button>
+                    <a class="btn btn-danger" asp-controller="Blog" asp-action="Index">Cancel</a>
+                </div>
+                <!-- Card action ends -->
+
+            </div>
+        </div>
+    </div>
+</form>
+
+@section Scripts {
+    <script type="text/javascript">
+        document.getElementById('btnCancel').addEventListener('click', function () {
+            document.getElementById('txtBlogTitle').value = '';
+            document.getElementById('txtBlogContent').value = '';
+            //document.getElementById('blogForm').reset(); // Reset the entire form
+        });
+    </script>
+}
