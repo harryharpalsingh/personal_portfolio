@@ -16,7 +16,8 @@ namespace harryisdev.Controllers
 
         public IActionResult Index()
         {
-            IEnumerable<BlogMaster> objBlogList = _dbContext.BlogMaster;
+            //IEnumerable<BlogMaster> objBlogList = _dbContext.BlogMaster;
+            IEnumerable<BlogMaster> objBlogList = _dbContext.BlogMaster.OrderByDescending(b => b.Id);
             return View(objBlogList);
         }
 

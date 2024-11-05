@@ -17,7 +17,8 @@ namespace harryisdev.Areas.Admin.Controllers
 
         public IActionResult Index()
         {
-            IEnumerable<BlogMaster> objBlogMaster = _dbContext.BlogMaster;
+            //IEnumerable<BlogMaster> objBlogMaster = _dbContext.BlogMaster;
+            IEnumerable<BlogMaster> objBlogMaster = _dbContext.BlogMaster.OrderByDescending(b => b.Id);
             return View(objBlogMaster);
         }
 
